@@ -1,27 +1,18 @@
-# 🧮 Soma de Matrizes em Java
+# Soma de matrizes em Java
 
-## 📌 Descrição
-Este programa em Java realiza a **soma de duas matrizes 2x2** de números inteiros.  
-O usuário insere os valores das matrizes **A** e **B**, e o programa calcula a matriz **Resultado**, onde:
+Aplicativo didático que lê duas matrizes 2×2 e exibe a soma, com entrada validada e resultado em long para evitar estouro na soma de inteiros.
 
----
+## Tecnologias
 
-## ✔️ O programa deve:
-- Ler matriz A  
-- Ler matriz B  
-- Criar matriz resultado  
-- Exibir matriz final  
+Java e Swing.
 
----
+## Executar
 
-## ▶️ Como executar
-1. Compile o programa:
-   ```bash
-   javac src/matrizes/app/service/MatrizServise.java
-   
-## 🛠️ Tecnologias utilizadas
-- ☕ Java
-- 💬 JOptionPane (entrada e saída gráfica)
+Com JDK 17+: `javac -encoding UTF-8 -d out src/matrizes/app/ProgramaMatriz.java src/matrizes/app/service/MatrizServise.java` e `java -cp out matrizes.app.ProgramaMatriz`. Requer sessão gráfica.
 
-## 👨‍🎓 Autor 
-- Marcos Mendes
+## Escopo
+
+Projeto de estudo de Marcos Mendes. O objetivo é demonstrar os conceitos presentes no código; funcionalidades ainda ausentes não são anunciadas como prontas. Não utilize dados pessoais reais em exemplos.
+
+Repositório: [java-matrix-addition](https://github.com/Maikillo/java-matrix-addition).
+

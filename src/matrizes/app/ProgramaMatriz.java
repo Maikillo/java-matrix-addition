@@ -5,6 +5,7 @@ import matrizes.app.service.MatrizServise;
 public class ProgramaMatriz {
     public static void main(String[] args) {
         MatrizServise matriz = new MatrizServise();
-        matriz.exercutarmatriz();
+        try { matriz.exercutarmatriz(); } catch (java.util.concurrent.CancellationException ignored) { /* Usuário cancelou. */ }
     }
 }
+
